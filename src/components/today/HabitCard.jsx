@@ -6,7 +6,7 @@ import ActionButton from "./ActionButton";
 
 const HabitCard = (props) => {
   const { habit } = props;
-  var target = 5 ; 
+  var target = 6 ; 
   var progress = 0  ; 
 
   for(let i= 0 ; i < 6 ; i++){
@@ -33,7 +33,9 @@ const HabitCard = (props) => {
             </span>
           </div>
           <div>
-          <i className="fa-solid fa-trash" onClick={handleDeleteHabit}></i>
+          <span className={styles.deleteIconTrash}>
+          <i className="fa-solid fa-trash whiteIcon"  onClick={handleDeleteHabit}></i>
+          </span>
           </div>
 
         </div>

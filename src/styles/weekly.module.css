@@ -1,22 +1,26 @@
 .container{
-    width: 60%;
+    width: 80%;
     margin: auto;
+    border-radius: 16px;
 }
 
 .weeklyCard{
     display: flex;
     flex-direction: column;
-    border: 2px solid grey ;
+    border: 2px solid rgb(76, 126, 0);
     margin: 50px 0px ;
     padding: 20px ;
-    background-color: white;
+    font-family: cursive;
+    background-color:rgb(255, 255, 255);
+    border-radius: 16px;
 }
 
 .habitTitle{
     font-size: 20px;
     font-weight: 600;
-    color: rgb(0, 132, 255);
+    color:rgb(76, 126, 0);
     display: flex;
+    margin: 2px;
     justify-content: space-between;
 }
 
@@ -27,6 +31,7 @@
    text-align: center;
    align-items: center;
    justify-content: space-between;
+   color: white;
 }
 
 .singleDay{
@@ -34,9 +39,12 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid #ddd; */
     padding: 5px;
-    border-radius: 5px;
-    background-color: antiquewhite;
+    border-radius: 5px;  
+    background-color:rgb(76, 126, 0);
 }
 
+.whiteIcon {
+    color: white;
+  }
+  

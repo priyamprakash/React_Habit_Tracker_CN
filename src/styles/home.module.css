@@ -1,44 +1,51 @@
 .container{
-   
-    /* background-color:azure; */
+    font-family: cursive;
+    background-color:rgb(182, 210, 0);
     margin: auto ;
+    height:100vh;
+    padding-top: 10px;
 }
 
 .addHabit{
     margin: auto;
     width: fit-content;
-    background-color: lightgray;
+    background-color : rgb(255, 255, 255);
     padding: 10px;
-    margin-top: 50px;
+    border-radius: 8px;
 }
 
 .addHabit input{
-    border : 2px ; 
-    background-color : lightgray;
+    border : 1px ; 
+    background-color : rgb(255, 255, 255);
     font-weight: 600;
+    margin-top: 10px;
     outline : none ; 
     font-size: 20px;
+    font-family: cursive;
 }
 
 .habitCardContainer{
     width:80%;
     margin: auto;
-   
+ 
 }
 
 .habitCard{
     width: 100% ; 
     height: fit-content ; 
-    border: 1px solid #a1f7e1; 
-    background-color: lightgray;
+    border: 1px solid #000706; 
+    background-color: rgb(255, 255, 255);
     padding: 10px ;
     margin: 20px 0px;
+    border-radius: 16px;
 }
 
 .habitCardTitle{
+     background-color:rgb(76, 126, 0);
      display: flex;
      justify-content: space-between;
-     
+     padding: 12px;
+     border-radius: 8px;
 }
 .habitActionName{
     display: flex;
@@ -47,7 +54,7 @@
 
 .cardName{
    font-weight: 600;
-   color: rgb(118, 190, 70);
+   color: rgb(255, 255, 255);
    font-size: 20px ;
    margin-left: 10px ; 
 }
@@ -61,12 +68,14 @@
 
 .habitCardCheckIcon{
    font-size: 20px;
-   color: black ;
+   color: rgb(255, 255, 255) ;
 }
 
 .habitCardCrossIcon{
     font-size: 20px ;
-    color: red ;
+    color: rgb(255, 255, 255) ;
 }
 
-
+.deleteIconTrash{
+    color: rgb(255, 255, 255) ;
+}

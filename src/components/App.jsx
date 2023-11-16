@@ -5,7 +5,6 @@ import TopNav from "./today/TopNav";
 import Weekly from "./week/Weekly";
 
 
-
 function App() {
   return (
     <div className="App">

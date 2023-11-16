@@ -1,11 +1,15 @@
  .topnav{
     display: flex;
-    background-color: azure;
+    background-color:rgb(76, 126, 0);
     text-align: center;
     align-items: center;
-    padding: 20px;
-    width:97%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:98.5%;
     justify-content: space-between;
+    font-family: cursive;
  }
 
 .navLeft{
@@ -20,6 +24,13 @@
     font-weight: 400;
     text-decoration: none ;
     font-size: 20px;
+    font-family: cursive;
+    color: rgb(182, 210, 0);  
+}
+
+
+.navLeftElem a{
+   color: rgb(182, 210, 0);  
 }
 
 .decorationLogo{
@@ -27,6 +38,8 @@
    border-radius: 5px ;
    font-size: 20px ;
    font-weight: 600;
+   font-family: cursive;
+   color: rgb(182, 210, 0);
 }
 
 .decoration{
@@ -34,6 +47,6 @@
 }
 
 .navRightElem{
-   color: black;
+   color: rgb(255, 255, 255);
    font-weight: 600;
 }
